@@ -1,3 +1,10 @@
+Notes on the 4 scripts:
+* make sure the scripts are in the working directory, just as the sourcefile "household_power_consumption.txt"
+* all scripts uses the 'sqldf' package. This package is loaded at the start of each script.
+* only those lines of the sourcefiles are read, which contain data on '1/2/2007' or '2/2/2007'.
+* the date-language is set to "english", to make sure that all labels are printed correctly
+* the scripts contain descriptions of all the commands, to help you understand all the steps.
+
 ## Introduction
 
 This assignment uses data from
